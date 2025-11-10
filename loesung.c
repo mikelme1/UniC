@@ -18,7 +18,7 @@ int main(void) {
     
     printf("Bitte Anzahl der Experimente (N) eingeben.\nHinweis: Bitte nur natürliche Zahlen eingeben\n(Bei Kommazahlen wird nur der Wert vor dem Komma gewertet): ");
     scanf("%d", &N); 
-
+    printf("Eingegebene Anzahl der Experimente: %d\n", N);
     long long t = 0; 
     
   if (N < 0|| N == 0  )
