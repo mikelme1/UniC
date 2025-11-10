@@ -49,6 +49,7 @@ int main(int argc, char *argv[]) {
         if (current_num == 0) {
             continue;
         }
+        
         if (current_num % divisor == 0) {
             fprintf(ofptr, "%i\n", current_num);
         }
